@@ -4,8 +4,8 @@
 
 $serverName = 'localhost';
 $userName = 'root';
-$password = 'bylyngolsp';
-$databaseName = 'test';
+$password = 'password';
+$databaseName = 'database';
 
 $conn = mysqli_connect($serverName,$userName,$password,$databaseName);
 if(!$conn){
